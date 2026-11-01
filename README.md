@@ -59,4 +59,3 @@ The verified public contact link I currently share is [GitHub](https://github.co
   <img src="assets/footer.svg" alt="Keep exploring. Keep making. A subtle animated mint line and ocean-inspired orbit." width="100%">
 </p>
 
-<sub align="center">Motion uses lightweight SVG/CSS animation and includes a reduced-motion rule. GitHub may sanitize or render SVG animation differently; the still hero is available above as a fallback.</sub>
