@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="360" viewBox="0 0 1000 360" role="img" aria-labelledby="title description">
+  <title id="title">Lucas Jordão — Software Developer</title>
+  <desc id="description">A still deep navy ocean-inspired banner with the name Lucas Jordão, the title Software Developer, and a quiet orbital motif.</desc>
+  <defs>
+    <linearGradient id="ocean" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0A192F"/>
+      <stop offset=".62" stop-color="#102941"/>
+      <stop offset="1" stop-color="#0A192F"/>
+    </linearGradient>
+    <radialGradient id="mintGlow"><stop offset="0" stop-color="#A8F0CD" stop-opacity=".2"/><stop offset="1" stop-color="#A8F0CD" stop-opacity="0"/></radialGradient>
+    <radialGradient id="iceGlow"><stop offset="0" stop-color="#91CFFF" stop-opacity=".16"/><stop offset="1" stop-color="#91CFFF" stop-opacity="0"/></radialGradient>
+    <linearGradient id="orbitStroke" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#A8F0CD" stop-opacity=".7"/>
+      <stop offset="1" stop-color="#91CFFF" stop-opacity=".18"/>
+    </linearGradient>
+  </defs>
+  <rect width="1000" height="360" rx="22" fill="url(#ocean)"/>
+  <circle cx="815" cy="104" r="205" fill="url(#iceGlow)"/>
+  <circle cx="694" cy="276" r="222" fill="url(#mintGlow)"/>
+  <path d="M0 292 C180 264 274 329 432 296 S730 260 1000 296" fill="none" stroke="#91CFFF" stroke-opacity=".08"/>
+  <path d="M0 312 C178 281 296 347 456 313 S742 280 1000 309" fill="none" stroke="#A8F0CD" stroke-opacity=".07"/>
+  <path d="M544 74 H676 Q704 74 704 102 V119 M536 268 H658 Q678 268 678 248 V231" fill="none" stroke="#91CFFF" stroke-opacity=".22" stroke-width="1" stroke-dasharray="4 9"/>
+  <g fill="#A8F0CD" fill-opacity=".55">
+    <circle cx="623" cy="74" r="2"/><circle cx="851" cy="67" r="1.7"/><circle cx="931" cy="155" r="2"/>
+    <circle cx="739" cy="284" r="1.8"/><circle cx="586" cy="216" r="1.5"/>
+  </g>
+  <g fill="none" stroke="url(#orbitStroke)">
+    <circle cx="807" cy="180" r="92" stroke-opacity=".52"/>
+    <ellipse cx="807" cy="180" rx="129" ry="48" transform="rotate(-32 807 180)" stroke-opacity=".47"/>
+    <ellipse cx="807" cy="180" rx="129" ry="48" transform="rotate(32 807 180)" stroke-opacity=".26"/>
+    <circle cx="807" cy="180" r="50" stroke-opacity=".22"/>
+  </g>
+  <circle cx="807" cy="180" r="5" fill="#A8F0CD" fill-opacity=".85"/>
+  <circle cx="807" cy="180" r="17" fill="#A8F0CD" fill-opacity=".08"/>
+  <circle cx="905" cy="125" r="3" fill="#91CFFF" fill-opacity=".85"/>
+  <circle cx="738" cy="236" r="2.5" fill="#A8F0CD" fill-opacity=".82"/>
+  <g font-family="Inter, Segoe UI, Arial, sans-serif">
+    <text x="78" y="91" fill="#A8F0CD" font-size="12" font-weight="600" letter-spacing="3.2">SOFTWARE · SYSTEMS · INTERACTION</text>
+    <text x="74" y="179" fill="#F2F8FC" font-size="64" font-weight="650" letter-spacing="-2.5">Lucas Jordão</text>
+    <text x="80" y="237" fill="#91CFFF" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="28" letter-spacing=".3">Software Developer</text>
+    <path d="M80 267 H212" stroke="#A8F0CD" stroke-opacity=".62" stroke-width="1.5"/>
+    <circle cx="219" cy="267" r="2.5" fill="#A8F0CD"/>
+    <text x="80" y="303" fill="#8897AC" font-size="12" letter-spacing="1.6">BUILDING THOUGHTFUL SOFTWARE</text>
+  </g>
+</svg>

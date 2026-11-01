@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="28" viewBox="0 0 1000 28" role="img" aria-labelledby="title">
+  <title id="title">A subtle animated mint light moving along a blue-gray line</title>
+  <defs>
+    <linearGradient id="line" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#91CFFF" stop-opacity="0"/>
+      <stop offset=".35" stop-color="#91CFFF" stop-opacity=".22"/>
+      <stop offset=".5" stop-color="#A8F0CD" stop-opacity=".42"/>
+      <stop offset=".68" stop-color="#91CFFF" stop-opacity=".2"/>
+      <stop offset="1" stop-color="#91CFFF" stop-opacity="0"/>
+    </linearGradient>
+    <style>
+      .glint { animation: glide 9s ease-in-out infinite; }
+      @keyframes glide { 0%, 100% { transform: translateX(-235px); opacity: .35; } 50% { transform: translateX(235px); opacity: .8; } }
+      @media (prefers-reduced-motion: reduce) { *, *::before, *::after { animation: none !important; } .glint { transform: none; opacity: .55; } }
+    </style>
+  </defs>
+  <path d="M24 14 H976" fill="none" stroke="url(#line)" stroke-width="1"/>
+  <path d="M24 18 H976" fill="none" stroke="#91CFFF" stroke-opacity=".035" stroke-width="1"/>
+  <circle cx="500" cy="14" r="2" fill="#A8F0CD" class="glint"/>
+</svg>

@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28" role="img" aria-labelledby="title">
+  <title id="title">Computer vision</title>
+  <path d="M3 9V4h5m12 0h5v5m0 10v5h-5m-12 0H3v-5" fill="none" stroke="#91CFFF" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M5 14s3.2-5 9-5 9 5 9 5-3.2 5-9 5-9-5-9-5Z" fill="none" stroke="#A8F0CD" stroke-width="1.5"/>
+  <circle cx="14" cy="14" r="2.4" fill="none" stroke="#A8F0CD" stroke-width="1.5"/>
+</svg>
